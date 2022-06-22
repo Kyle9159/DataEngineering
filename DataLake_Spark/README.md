@@ -7,7 +7,7 @@ The tables created include one fact tablec called `songplays` and four dimension
 ## Run
 
 1. Set environment variables `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`.
-2. Create an S3 bucket and replace the `output_data` variable in the `main()` function with `s3a://<bucket name>/`, or uncomment the line below to run locally.
+2. Create S3 bucket and replace `output_data` variable in `main()` function with `s3a://<bucket name>/`.
 
 **Run ETL pipeline**
 
